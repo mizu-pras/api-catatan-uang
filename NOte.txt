@@ -1,0 +1,8 @@
+Database
+
+# category
+
+#### type 1 => penghasilan
+	      2 => pengeluaran
+
+ 

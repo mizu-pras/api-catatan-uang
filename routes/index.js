@@ -1,13 +1,7 @@
 var express = require('express');
 var router = express.Router();
-const axios = require('axios');
+var homeController = require('../src/api/controllers/homeController');
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.json({
-    success: true,
-    message: "Welcome to miyarsa API"
-  })
-});
+router.get('/', homeController.get);
 
 module.exports = router;
